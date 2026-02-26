@@ -46,7 +46,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 ## Revenue Cycle Management
 
-- [ReimbursementEngine](https://github.com/rdmgator12/MCP-marketplace) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
+- [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
 
 ## Clinical Decision Support
 
