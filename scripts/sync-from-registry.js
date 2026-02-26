@@ -49,7 +49,8 @@ const CATEGORY_ORDER = [
 ];
 
 function formatEntry(mcp) {
-  const url = mcp.url || MARKETPLACE_URL;
+  const id = mcp.id;
+  const url = mcp.url || `${MARKETPLACE_URL}/#${id}`;
   const name = mcp.name;
   const desc = mcp.description.replace(/\.$/, ""); // Remove trailing period if present
   const hipaa = `\`L${mcp.hipaa_level}\``;
@@ -60,7 +61,7 @@ function formatEntry(mcp) {
     lang = ` \`${mcp.languages[0]}\``;
   }
 
-  return `- [${name}](${url}) - ${desc}. ${hipaa} ${clinical}${lang} | [Marketplace](${MARKETPLACE_URL})`;
+  return `- [${name}](${url}) - ${desc} (${hipaa} ${clinical}${lang}).`;
 }
 
 function main() {
