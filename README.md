@@ -1,12 +1,12 @@
 # Awesome Healthcare MCP Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
-  <a href="https://easypa.ai"><img src="media/logo.svg" width="400" alt="Awesome Healthcare MCP Servers"></a>
+  <img src="media/logo.svg" width="400" alt="Awesome Healthcare MCP Servers">
 </p>
 
 > A curated list of healthcare Model Context Protocol (MCP) servers for clinical decision support, FHIR interoperability, revenue cycle management, medical research, and HIPAA-compliant AI workflows.
 
-Every server is independently rated for **HIPAA compliance** (L1–L5) and **clinical validity** (A–D) by a board-certified physician. Full ratings methodology and interactive search available at the [Healthcare MCP Marketplace](https://easypa.ai).
+Every server is independently rated for **HIPAA compliance** (L1–L5) and **clinical validity** (A–D) by a board-certified physician.
 
 ## Contents
 
@@ -21,7 +21,7 @@ Every server is independently rated for **HIPAA compliance** (L1–L5) and **cli
 
 ## Trust Framework
 
-Every MCP server listed here carries two independent ratings assessed by [EasyPA](https://easypa.ai/trust), maintained by Ralph Martello, MD.
+Every MCP server listed here carries two independent ratings maintained by Ralph Martello, MD.
 
 ### HIPAA Compliance Level
 
@@ -42,11 +42,11 @@ Every MCP server listed here carries two independent ratings assessed by [EasyPA
 | `C`   | Operationally Useful | Administrative or financial tools, not clinical            |
 | `D`   | Experimental         | Research-stage, community-developed                        |
 
-> All ratings are point-in-time architectural assessments, not certifications. See the [full compliance methodology](https://easypa.ai/compliance) for criteria and disclaimers.
+> All ratings are point-in-time architectural assessments, not certifications. See [contributing.md](contributing.md) for full rating criteria.
 
 ## Revenue Cycle Management
 
-- [EasyPA ReimbursementEngine](https://easypa.ai/#easypa-reimbursement-engine) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
+- [ReimbursementEngine](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
 
 ## Clinical Decision Support
 
@@ -54,7 +54,7 @@ Every MCP server listed here carries two independent ratings assessed by [EasyPA
 - [Healthcare Data Hub](https://github.com/Cicatriiz/healthcare-mcp-public) - All-in-one server for FDA drug info, PubMed, medRxiv, NCBI Bookshelf, clinical trials, ICD-10, DICOM metadata, and medical calculator (`L2` `B` `Node.js`).
 - [MedAdapt Content Server](https://github.com/ryoureddy/medadapt-content-server) - AI-assisted medical learning with adaptive content from PubMed, NCBI Bookshelf, and user documents (`L2` `B` `Python`).
 - [Medical-MCP](https://github.com/JamesANZ/medical-mcp) - Comprehensive medical information from FDA, WHO, PubMed, RxNorm, and Google Scholar (`L2` `B` `Python`).
-- [NICE MCP Server](https://easypa.ai/#nice-mcp) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A`).
+- [NICE MCP Server](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A`).
 
 ## FHIR and Health Data Interoperability
 
@@ -72,8 +72,8 @@ Every MCP server listed here carries two independent ratings assessed by [EasyPA
 
 ## Life Sciences and Research
 
-- [3D Slicer MCP](https://easypa.ai/#3d-slicer-mcp) - Medical imaging integration via 3D Slicer for radiology and surgical planning workflows (`L3` `B`).
-- [Protein Structure Analyzer](https://easypa.ai/#protein-structure-analyzer) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
+- [3D Slicer MCP](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - Medical imaging integration via 3D Slicer for radiology and surgical planning workflows (`L3` `B`).
+- [Protein Structure Analyzer](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
 - [Standalone PubMed MCP](https://github.com/rikachu225/mcp-pubmed-server) - Standalone PubMed search server for biomedical literature access and citation retrieval (`L2` `A`).
 
 ## Population Health and Value-Based Care
@@ -82,19 +82,19 @@ Every MCP server listed here carries two independent ratings assessed by [EasyPA
 
 ## Workflow Bundles
 
-Pre-configured MCP stacks for common healthcare workflows. Full bundle details and installation guides available at the [Marketplace](https://easypa.ai/bundles).
+Pre-configured MCP stacks for common healthcare workflows.
 
-- [Denial Fighter](https://easypa.ai/#denial-fighter) - Analyze, appeal, and prevent claim denials with NCD/LCD lookup, ICD-10 validation, and clinical evidence search.
-- [Prior Auth Stack](https://easypa.ai/#prior-auth-stack) - CMS-0057 aligned prior authorization workflow with coverage determination and FHIR submission.
-- [Clinical Reference Kit](https://easypa.ai/#clinical-reference-kit) - Point-of-care reference tools for clinicians including drug info, literature search, and genomics.
-- [FHIR Interop Suite](https://easypa.ai/#fhir-interop-suite) - Complete FHIR integration toolkit for CMS-0057 and HTI-1 compliance.
-- [Compliance Suite](https://easypa.ai/#compliance-suite) - Quality reporting and regulatory compliance with Medicare policy monitoring and HIPAA guardrails.
+- **Denial Fighter** - Analyze, appeal, and prevent claim denials with NCD/LCD lookup, ICD-10 validation, and clinical evidence search.
+- **Prior Auth Stack** - CMS-0057 aligned prior authorization workflow with coverage determination and FHIR submission.
+- **Clinical Reference Kit** - Point-of-care reference tools for clinicians including drug info, literature search, and genomics.
+- **FHIR Interop Suite** - Complete FHIR integration toolkit for CMS-0057 and HTI-1 compliance.
+- **Compliance Suite** - Quality reporting and regulatory compliance with Medicare policy monitoring and HIPAA guardrails.
 
 ## Footnotes
 
 ### Rating Methodology
 
-All HIPAA compliance levels and clinical validity scores are point-in-time architectural assessments, not ongoing guarantees or HIPAA certifications. Organizations must conduct their own due diligence before deploying any MCP server in a clinical or production environment. See the [rating details](https://easypa.ai/methodology) for assessment criteria.
+All HIPAA compliance levels and clinical validity scores are point-in-time architectural assessments, not ongoing guarantees or HIPAA certifications. Organizations must conduct their own due diligence before deploying any MCP server in a clinical or production environment.
 
 ### CMS-0057 and HTI-1
 

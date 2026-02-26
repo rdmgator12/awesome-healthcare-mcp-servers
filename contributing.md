@@ -15,7 +15,7 @@ Add your entry directly to `README.md` in the appropriate category section.
 #### Entry Format
 
 ```markdown
-- [Name](https://github.com/org/repo) - Description of what this MCP does. `L#` `Score` `Language` | [Marketplace](https://easypa.ai)
+- [Name](https://github.com/org/repo) - Description of what this MCP does (`L#` `Score` `Language`).
 ```
 
 **Rules:**
@@ -24,12 +24,11 @@ Add your entry directly to `README.md` in the appropriate category section.
 - Place the entry in alphabetical order within its category.
 - Include the primary programming language in backticks after the scores (if known).
 - HIPAA level (`L1`–`L5`) and clinical score (`A`–`D`) will be assigned by maintainers if not yet rated.
-- Always include the marketplace backlink: `| [Marketplace](https://easypa.ai)`
 
 #### Example
 
 ```markdown
-- [My Healthcare MCP](https://github.com/org/my-healthcare-mcp) - Real-time drug interaction checking via the FDA API for clinical decision support. `L2` `B` `Python` | [Marketplace](https://easypa.ai)
+- [My Healthcare MCP](https://github.com/org/my-healthcare-mcp) - Real-time drug interaction checking via the FDA API for clinical decision support (`L2` `B` `Python`).
 ```
 
 ### Requirements
@@ -57,13 +56,13 @@ All accepted MCPs receive two independent ratings:
 - **HIPAA Compliance Level (L1–L5)**: Based on security architecture and PHI handling.
 - **Clinical Validity Score (A–D)**: Based on clinical evidence and guideline alignment.
 
-Ratings are assigned by our team after review. See the [Healthcare MCP Marketplace](https://easypa.ai) for the full compliance methodology.
+Ratings are assigned by our team after review.
 
 ## Other Contributions
 
 - **Category suggestions**: Open an issue to propose new categories.
 - **Bug reports**: Found a dead link or incorrect information? Open an issue.
-- **Compliance feedback**: Email compliance@easypa.ai with expertise on HIPAA or healthcare security.
+- **Compliance feedback**: Open an issue if you have expertise in HIPAA or healthcare security.
 
 ## Code of Conduct
 

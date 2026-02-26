@@ -18,7 +18,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const MARKETPLACE_URL = "https://easypa.ai";
+const FALLBACK_URL = "https://github.com/rdmgator12/awesome-healthcare-mcp-servers";
 
 // Map category IDs to awesome-list section headings
 const CATEGORY_HEADINGS = {
@@ -49,9 +49,8 @@ const CATEGORY_ORDER = [
 ];
 
 function formatEntry(mcp) {
-  const id = mcp.id;
-  const url = mcp.url || `${MARKETPLACE_URL}/#${id}`;
-  const name = mcp.name;
+  const url = mcp.url || FALLBACK_URL;
+  const name = mcp.name.replace(/^EasyPA\s+/, "");
   const desc = mcp.description.replace(/\.$/, ""); // Remove trailing period if present
   const hipaa = `\`L${mcp.hipaa_level}\``;
   const clinical = `\`${mcp.clinical_score}\``;

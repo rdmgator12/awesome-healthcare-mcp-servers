@@ -8,7 +8,7 @@ This project serves healthcare professionals, developers, and ultimately patient
 - **Patient Privacy**: Never include protected health information (PHI), patient data, or real clinical records in any submission, issue, or pull request.
 - **Honest Disclosure**: Accurately disclose how your MCP handles data, what external services it connects to, and any known limitations.
 - **Respectful Collaboration**: Provide constructive feedback. Disagree on technical merits, not personal attributes.
-- **Responsible Security**: Report security vulnerabilities privately to compliance@easypa.ai before public disclosure.
+- **Responsible Security**: Report security vulnerabilities privately via a GitHub security advisory before public disclosure.
 
 ## Unacceptable Behavior
 
@@ -23,5 +23,4 @@ Violations may result in removal of submissions, temporary bans, or permanent ex
 
 ## Contact
 
-- compliance@easypa.ai for security or compliance concerns
-- marketplace@easypa.ai for general questions
+Open a GitHub issue or use the repository's security advisory feature for sensitive reports.
