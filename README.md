@@ -46,7 +46,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 ## Revenue Cycle Management
 
-- [ReimbursementEngine](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
+- [ReimbursementEngine](https://github.com/rdmgator12/MCP-marketplace) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
 
 ## Clinical Decision Support
 
@@ -58,7 +58,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Medical-MCP](https://github.com/JamesANZ/medical-mcp) - Comprehensive medical information from FDA, WHO, PubMed, RxNorm, and Google Scholar (`L2` `B` `Python`).
 - [NCCN Guidelines MCP](https://github.com/gscfwid/NCCN_guidelines_MCP) - NCCN cancer treatment guidelines access for oncology decision support (`L2` `A` `Python`).
 - [NexOnco MCP](https://github.com/Nexgene-Research/nexonco-mcp) - Oncology clinical evidence and precision medicine decision support (`L2` `B` `Python`).
-- [NICE MCP Server](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A`).
+- [NICE MCP Server](https://github.com/kieran-heidi/medical-mcp-server) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A`).
 - [SNOMED CT MCP](https://github.com/eigenbau/mcp-snomed-ct) - SNOMED CT concept lookup via FHIR R4 terminology server for clinical coding (`L2` `A` `Python`).
 
 ## FHIR and Health Data Interoperability
@@ -81,13 +81,13 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 ## Life Sciences and Research
 
-- [3D Slicer MCP](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - Medical imaging integration via 3D Slicer for radiology and surgical planning workflows (`L3` `B`).
+- [3D Slicer MCP](https://github.com/brainbloodbarrier/3dslicer-claude-bridge) - Medical imaging integration via 3D Slicer for radiology and surgical planning workflows (`L3` `B`).
 - [BioMCP](https://github.com/genomoncology/biomcp) - Clinical trials, genomics, PubMed, and variant annotation in Rust for biomedical research workflows (`L2` `B` `Rust`).
 - [CDISC Library MCP](https://github.com/Cicatriiz/cdisc-library-mcp-server) - CDISC Library access for clinical data standards and regulatory submissions (`L2` `B` `JavaScript`).
 - [ClinicalTrials.gov MCP](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) - ClinicalTrials.gov REST API for searching and retrieving clinical trial data (`L2` `A` `TypeScript`).
 - [M3 MIMIC MCP](https://github.com/rafiattrach/m3) - Query MIMIC-IV medical data via natural language for clinical research (`L3` `B` `Python`).
 - [MCP Simple PubMed](https://github.com/andybrandt/mcp-simple-pubmed) - Popular standalone PubMed MCP server for biomedical literature search (`L2` `A` `Python`).
-- [Protein Structure Analyzer](https://github.com/rdmgator12/awesome-healthcare-mcp-servers) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
+- [Protein Structure Analyzer](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
 - [Standalone PubMed MCP](https://github.com/rikachu225/mcp-pubmed-server) - Standalone PubMed search server for biomedical literature access and citation retrieval (`L2` `A`).
 - [TealFlow MCP](https://github.com/Appsilon/TealFlowMCP) - Build Teal R Shiny clinical trial analysis apps with AI assistance (`L2` `B` `Python`).
 
