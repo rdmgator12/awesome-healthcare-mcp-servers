@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" rx="16" fill="url(#bg)"/>
+  <!-- Medical Cross -->
+  <g transform="translate(60, 60)">
+    <rect x="28" y="0" width="24" height="80" rx="4" fill="#0d9488"/>
+    <rect x="0" y="28" width="80" height="24" rx="4" fill="#0d9488"/>
+  </g>
+  <!-- Text -->
+  <text x="170" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#f8fafc">Healthcare MCP Servers</text>
+  <text x="170" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#94a3b8">Physician-vetted MCP servers for HIPAA-compliant AI workflows</text>
+  <!-- Decorative dots -->
+  <circle cx="720" cy="40" r="4" fill="#0d9488" opacity="0.5"/>
+  <circle cx="740" cy="60" r="3" fill="#0d9488" opacity="0.3"/>
+  <circle cx="760" cy="35" r="2" fill="#0d9488" opacity="0.4"/>
+</svg>

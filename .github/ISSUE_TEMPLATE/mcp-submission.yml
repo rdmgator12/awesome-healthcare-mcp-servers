@@ -1,0 +1,77 @@
+name: MCP Server Submission
+description: Submit a healthcare MCP server for inclusion in the awesome list.
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a healthcare MCP server. Please fill out the fields below.
+        All accepted MCPs will receive HIPAA compliance and clinical validity ratings from our team.
+
+  - type: input
+    id: name
+    attributes:
+      label: MCP Server Name
+      placeholder: e.g., My Healthcare MCP
+    validations:
+      required: true
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two sentences describing what this MCP does and what healthcare workflow it supports.
+      placeholder: Provides real-time drug interaction checking via the FDA API for clinical decision support.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary Category
+      options:
+        - Revenue Cycle Management
+        - Clinical Decision Support
+        - FHIR & Health Data Interoperability
+        - Quality, Compliance & Regulatory
+        - Credentialing & Provider Operations
+        - Medical-Legal & Expert Witness
+        - Medical Education & Training
+        - Population Health & Value-Based Care
+        - Life Sciences & Research
+        - Health Plan & Payer Operations
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phi_handling
+    attributes:
+      label: Does this MCP handle Protected Health Information (PHI)?
+      options:
+        - "No - public/reference data only"
+        - "No - de-identified/aggregate data only"
+        - "Yes - but does not store PHI"
+        - "Yes - stores or transmits PHI"
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Primary Language
+      placeholder: e.g., Python, TypeScript, Node.js
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Anything else we should know (notable authors, enterprise backing, clinical validation, etc.)
