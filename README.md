@@ -70,6 +70,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [DICOM MCP Server](https://github.com/ChristianHinge/dicom-mcp) - Query, read, and move medical images and reports from PACS and other DICOM-compliant systems (`L3` `B` `Python`).
 - [Flexpa FHIR MCP](https://github.com/flexpa/mcp-fhir) - Connect to health plans and retrieve patient claims, coverage, and clinical data via FHIR (`L4` `C` `TypeScript`).
 - [Health Record MCP](https://github.com/jmandel/health-record-mcp) - Connect to an EHR and make clinical data available via MCP, by Josh Mandel of SMART Health IT (`L4` `A` `TypeScript`).
+- [LangCare MCP FHIR](https://github.com/langcare/langcare-mcp-fhir) - Enterprise-grade FHIR R4 proxy for AI agents with 40+ clinical skills, multi-EMR support (Epic, Cerner, GCP), and SMART-on-FHIR auth (`L4` `B` `Go`).
 - [Momentum FHIR MCP Server](https://github.com/the-momentum/fhir-mcp-server) - Natural language interface for healthcare data that eliminates weeks of FHIR learning and prevents LLM hallucination of medical codes (`L4` `B` `TypeScript`).
 - [WSO2 FHIR MCP Server](https://github.com/wso2/fhir-mcp-server) - Expose any FHIR server or API as an MCP server with SMART-on-FHIR authentication and full CRUD on FHIR resources (`L4` `B` `TypeScript`).
 
