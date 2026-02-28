@@ -46,6 +46,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 ## Revenue Cycle Management
 
+- [Healthcare Billing Codes](https://github.com/contextkits/healthcare-billing-codes) - CPT, ICD-10, and HCPCS billing code lookup and search for revenue cycle workflows (`L2` `C` `Python`).
 - [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
 
 ## Clinical Decision Support
@@ -72,12 +73,16 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Health Record MCP](https://github.com/jmandel/health-record-mcp) - Connect to an EHR and make clinical data available via MCP, by Josh Mandel of SMART Health IT (`L4` `A` `TypeScript`).
 - [LangCare MCP FHIR](https://github.com/langcare/langcare-mcp-fhir) - Enterprise-grade FHIR R4 proxy for AI agents with 40+ clinical skills, multi-EMR support (Epic, Cerner, GCP), and SMART-on-FHIR auth (`L4` `B` `Go`).
 - [Momentum FHIR MCP Server](https://github.com/the-momentum/fhir-mcp-server) - Natural language interface for healthcare data that eliminates weeks of FHIR learning and prevents LLM hallucination of medical codes (`L4` `B` `TypeScript`).
+- [Orthanc DICOM MCP](https://github.com/sscotti/dicom-mcp) - DICOM MCP with Orthanc PACS integration, radiology report generation, FHIR ImagingStudy, and mini-RIS (`L3` `B` `Python`).
+- [Quiquemz FHIR MCP](https://github.com/quiquemz/fhir-mcp-server) - C# FHIR R4 MCP server with CRUD, search, transactions, and Azure FHIR Server support (`L4` `B` `C#`).
+- [Secure FHIR MCP](https://github.com/xSoVx/fhir-mcp) - HIPAA-hardened FHIR MCP with PHI masking, break-glass access, OWASP security, and audit logging (`L4` `B` `TypeScript`).
 - [WSO2 FHIR MCP Server](https://github.com/wso2/fhir-mcp-server) - Expose any FHIR server or API as an MCP server with SMART-on-FHIR authentication and full CRUD on FHIR resources (`L4` `B` `TypeScript`).
 
 ## Quality Compliance and Regulatory
 
 - [Innovaccer HMCP](https://github.com/innovaccer/Healthcare-MCP) - Specialized MCP extension with HIPAA guardrails, OAuth2, audit trails, and compliance layer for enterprise healthcare AI (`L5` `C`).
 - [OMOP MCP](https://github.com/OHNLP/omop_mcp) - OMOP concept mapping via LLMs by Mayo Clinic NLP group for clinical data standardization (`L2` `B` `Python`).
+- [DataMimic](https://github.com/rapiddweller/datamimic) - Deterministic synthetic healthcare test data generation for CI/CD and analytics, HIPAA-safe with MCP integration (`L3` `C` `Python`).
 - [PyOMOP](https://github.com/dermatologist/pyomop) - OHDSI/OMOP clinical data management with FHIR import for observational research (`L3` `B` `Python`).
 
 ## Life Sciences and Research
@@ -90,11 +95,16 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [MCP Simple PubMed](https://github.com/andybrandt/mcp-simple-pubmed) - Popular standalone PubMed MCP server for biomedical literature search (`L2` `A` `Python`).
 - [Protein Structure Analyzer](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
 - [Standalone PubMed MCP](https://github.com/rikachu225/mcp-pubmed-server) - Standalone PubMed search server for biomedical literature access and citation retrieval (`L2` `A`).
+- [Medical MCPs](https://github.com/pascalwhoop/medical-mcps) - 100+ unified tools across 14 biomedical APIs including Reactome, KEGG, UniProt, OMIM, ChEMBL, and OpenFDA (`L2` `B` `Python`).
+- [Medical Research MCP Suite](https://github.com/ezhou89/medical-research-mcp-suite) - Cross-database medical research intelligence unifying ClinicalTrials.gov, PubMed, and FDA with AI analysis (`L2` `B` `TypeScript`).
+- [Precision Medicine MCP](https://github.com/lynnlangit/precision-medicine-mcp) - Multi-omics precision medicine platform with genomics, spatial transcriptomics, imaging, and clinician-in-the-loop workflows (`L3` `B` `Python`).
+- [PubMed MCP](https://github.com/chrismannina/pubmed-mcp) - Advanced PubMed search with citation export (BibTeX, APA, MLA), author search, journal analysis, and article comparison (`L2` `A` `Python`).
 - [TealFlow MCP](https://github.com/Appsilon/TealFlowMCP) - Build Teal R Shiny clinical trial analysis apps with AI assistance (`L2` `B` `Python`).
 
 ## Population Health and Value-Based Care
 
 - [Apple Health MCP Server](https://github.com/the-momentum/apple-health-mcp-server) - Access exported Apple Health data with built-in analytics for consumer health and population health workflows (`L3` `D`).
+- [Apple Health MCP](https://github.com/neiltron/apple-health-mcp) - Query Apple Health data with SQL and natural language via DuckDB for consumer and population health workflows (`L3` `D` `TypeScript`).
 - [PopHIVE MCP Server](https://github.com/Cicatriiz/pophive-mcp-server) - Yale PopHIVE population health data for community health analysis and value-based care (`L3` `B` `JavaScript`).
 
 ## Workflow Bundles
