@@ -1,4 +1,4 @@
-# Awesome Healthcare MCP Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Healthcare MCP Server [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
   <img src="media/logo.svg" width="400" alt="Awesome Healthcare MCP Servers">
@@ -44,7 +44,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 > All ratings are point-in-time architectural assessments, not certifications. See [contributing.md](contributing.md) for full rating criteria.
 
-## Revenue Cycle Management
+## Revenue Cycle Management 
 
 - [Healthcare Billing Codes](https://github.com/contextkits/healthcare-billing-codes) - CPT, ICD-10, and HCPCS billing code lookup and search for revenue cycle workflows (`L2` `C` `Python`).
 - [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
