@@ -51,12 +51,28 @@ Your MCP server must:
 
 ### Compliance Ratings
 
-All accepted MCPs receive two independent ratings:
+All accepted MCPs receive two independent ratings assigned by our team after architectural review.
 
-- **HIPAA Compliance Level (L1–L5)**: Based on security architecture and PHI handling.
-- **Clinical Validity Score (A–D)**: Based on clinical evidence and guideline alignment.
+#### HIPAA Compliance Level (L1–L5)
 
-Ratings are assigned by our team after review.
+| Level | Criteria |
+|-------|----------|
+| **L5** HIPAA-Ready | Offers a BAA or operates under one. AES-256 encryption at rest and in transit. Audit logging with tamper-evident trails. Role-based access control (RBAC). Evidence of penetration testing or SOC 2 report. |
+| **L4** HIPAA-Aware | TLS 1.2+ for all data in transit. No PHI stored at rest. Privacy-by-design architecture (e.g., stateless, ephemeral processing). Input validation and output sanitization. |
+| **L3** De-identified Safe | Only processes aggregate, de-identified, or synthetic data. No direct PHI exposure path. Suitable for analytics and research workflows. |
+| **L2** Reference Only | Queries public data sources exclusively (FDA, NLM, CMS, PubMed). No patient data input or output. Read-only access to government APIs. |
+| **L1** Unvetted | Not yet assessed, or insufficient documentation to evaluate security posture. |
+
+#### Clinical Validity Score (A–D)
+
+| Score | Criteria |
+|-------|----------|
+| **A** Clinically Validated | Implements peer-reviewed clinical guidelines (e.g., NCCN, AHA, USPSTF). Data sources are authoritative (NLM, WHO, SNOMED CT). Endorsed or reviewed by a licensed clinician. |
+| **B** Clinically Informed | Built with clinical input or advisory. Follows established healthcare standards (HL7, FHIR, OMOP). Appropriate for clinical-adjacent workflows with clinician oversight. |
+| **C** Operationally Useful | Administrative, financial, or operational tools. Not intended for direct clinical decision-making. Useful for billing, scheduling, compliance, or revenue cycle. |
+| **D** Experimental | Research-stage or community-developed. No formal clinical review. May be useful for prototyping or exploratory analysis. |
+
+Ratings are point-in-time architectural assessments, not certifications. They may be updated as projects evolve.
 
 ## Other Contributions
 

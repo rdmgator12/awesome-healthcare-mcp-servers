@@ -27,27 +27,27 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 | Badge | Level              | Description                                                  |
 | ----- | ------------------ | ------------------------------------------------------------ |
-| `L5`  | HIPAA-Ready        | Full BAA, AES-256, audit logging, RBAC, pen-tested           |
-| `L4`  | HIPAA-Aware        | Encryption in transit, no PHI storage, privacy-by-design     |
-| `L3`  | De-identified Safe | Aggregate or de-identified data only                         |
-| `L2`  | Reference Only     | Public data sources only (FDA, NLM, CMS)                     |
-| `L1`  | Unvetted           | Not yet assessed                                             |
+| ![L5](https://img.shields.io/badge/HIPAA-L5-brightgreen) | HIPAA-Ready        | Full BAA, AES-256, audit logging, RBAC, pen-tested           |
+| ![L4](https://img.shields.io/badge/HIPAA-L4-blue) | HIPAA-Aware        | Encryption in transit, no PHI storage, privacy-by-design     |
+| ![L3](https://img.shields.io/badge/HIPAA-L3-yellow) | De-identified Safe | Aggregate or de-identified data only                         |
+| ![L2](https://img.shields.io/badge/HIPAA-L2-orange) | Reference Only     | Public data sources only (FDA, NLM, CMS)                     |
+| ![L1](https://img.shields.io/badge/HIPAA-L1-lightgrey) | Unvetted           | Not yet assessed                                             |
 
 ### Clinical Validity Score
 
 | Badge | Score                | Description                                                |
 | ----- | -------------------- | ---------------------------------------------------------- |
-| `A`   | Clinically Validated | Evidence-based, peer-reviewed, physician-endorsed          |
-| `B`   | Clinically Informed  | Built with clinical input, follows guidelines              |
-| `C`   | Operationally Useful | Administrative or financial tools, not clinical            |
-| `D`   | Experimental         | Research-stage, community-developed                        |
+| ![A](https://img.shields.io/badge/Clinical-A-brightgreen) | Clinically Validated | Evidence-based, peer-reviewed, physician-endorsed          |
+| ![B](https://img.shields.io/badge/Clinical-B-blue) | Clinically Informed  | Built with clinical input, follows guidelines              |
+| ![C](https://img.shields.io/badge/Clinical-C-yellow) | Operationally Useful | Administrative or financial tools, not clinical            |
+| ![D](https://img.shields.io/badge/Clinical-D-orange) | Experimental         | Research-stage, community-developed                        |
 
 > All ratings are point-in-time architectural assessments, not certifications. See [contributing.md](contributing.md) for full rating criteria.
 
 ## Revenue Cycle Management
 
 - [Healthcare Billing Codes](https://github.com/contextkits/healthcare-billing-codes) - CPT, ICD-10, and HCPCS billing code lookup and search for revenue cycle workflows (`L2` `C` `Python`).
-- [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
+- [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare payment calculation, NCCI compliance validation, DRG and severity analysis, and clinical documentation improvement across 18 tools (`L4` `C` `Python`).
 
 ## Clinical Decision Support
 
@@ -59,7 +59,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Medical-MCP](https://github.com/JamesANZ/medical-mcp) - Comprehensive medical information from FDA, WHO, PubMed, RxNorm, and Google Scholar (`L2` `B` `Python`).
 - [NCCN Guidelines MCP](https://github.com/gscfwid/NCCN_guidelines_MCP) - NCCN cancer treatment guidelines access for oncology decision support (`L2` `A` `Python`).
 - [NexOnco MCP](https://github.com/Nexgene-Research/nexonco-mcp) - Oncology clinical evidence and precision medicine decision support (`L2` `B` `Python`).
-- [NICE MCP Server](https://github.com/kieran-heidi/medical-mcp-server) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A`).
+- [NICE MCP Server](https://github.com/kieran-heidi/medical-mcp-server) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A` `Python`).
 - [SNOMED CT MCP](https://github.com/eigenbau/mcp-snomed-ct) - SNOMED CT concept lookup via FHIR R4 terminology server for clinical coding (`L2` `A` `Python`).
 
 ## FHIR and Health Data Interoperability
@@ -80,42 +80,42 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 ## Quality Compliance and Regulatory
 
-- [Innovaccer HMCP](https://github.com/innovaccer/Healthcare-MCP) - Specialized MCP extension with HIPAA guardrails, OAuth2, audit trails, and compliance layer for enterprise healthcare AI (`L5` `C`).
-- [OMOP MCP](https://github.com/OHNLP/omop_mcp) - OMOP concept mapping via LLMs by Mayo Clinic NLP group for clinical data standardization (`L2` `B` `Python`).
 - [DataMimic](https://github.com/rapiddweller/datamimic) - Deterministic synthetic healthcare test data generation for CI/CD and analytics, HIPAA-safe with MCP integration (`L3` `C` `Python`).
+- [Innovaccer HMCP](https://github.com/innovaccer/Healthcare-MCP) - Specialized MCP extension with HIPAA guardrails, OAuth2, audit trails, and compliance layer for enterprise healthcare AI (`L5` `C` `TypeScript`).
+- [OMOP MCP](https://github.com/OHNLP/omop_mcp) - OMOP concept mapping via LLMs by Mayo Clinic NLP group for clinical data standardization (`L2` `B` `Python`).
 - [PyOMOP](https://github.com/dermatologist/pyomop) - OHDSI/OMOP clinical data management with FHIR import for observational research (`L3` `B` `Python`).
 
 ## Life Sciences and Research
 
-- [3D Slicer MCP](https://github.com/brainbloodbarrier/3dslicer-claude-bridge) - Medical imaging integration via 3D Slicer for radiology and surgical planning workflows (`L3` `B`).
+- [3D Slicer MCP](https://github.com/brainbloodbarrier/3dslicer-claude-bridge) - Medical imaging integration via 3D Slicer for radiology and surgical planning workflows (`L3` `B` `Python`).
 - [BioMCP](https://github.com/genomoncology/biomcp) - Clinical trials, genomics, PubMed, and variant annotation in Rust for biomedical research workflows (`L2` `B` `Rust`).
 - [CDISC Library MCP](https://github.com/Cicatriiz/cdisc-library-mcp-server) - CDISC Library access for clinical data standards and regulatory submissions (`L2` `B` `JavaScript`).
 - [ClinicalTrials.gov MCP](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) - ClinicalTrials.gov REST API for searching and retrieving clinical trial data (`L2` `A` `TypeScript`).
 - [M3 MIMIC MCP](https://github.com/rafiattrach/m3) - Query MIMIC-IV medical data via natural language for clinical research (`L3` `B` `Python`).
 - [MCP Simple PubMed](https://github.com/andybrandt/mcp-simple-pubmed) - Popular standalone PubMed MCP server for biomedical literature search (`L2` `A` `Python`).
-- [Protein Structure Analyzer](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
-- [Standalone PubMed MCP](https://github.com/rikachu225/mcp-pubmed-server) - Standalone PubMed search server for biomedical literature access and citation retrieval (`L2` `A`).
 - [Medical MCPs](https://github.com/pascalwhoop/medical-mcps) - 100+ unified tools across 14 biomedical APIs including Reactome, KEGG, UniProt, OMIM, ChEMBL, and OpenFDA (`L2` `B` `Python`).
 - [Medical Research MCP Suite](https://github.com/ezhou89/medical-research-mcp-suite) - Cross-database medical research intelligence unifying ClinicalTrials.gov, PubMed, and FDA with AI analysis (`L2` `B` `TypeScript`).
 - [Precision Medicine MCP](https://github.com/lynnlangit/precision-medicine-mcp) - Multi-omics precision medicine platform with genomics, spatial transcriptomics, imaging, and clinician-in-the-loop workflows (`L3` `B` `Python`).
+- [Protein Structure Analyzer](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D` `Python`).
 - [PubMed MCP](https://github.com/chrismannina/pubmed-mcp) - Advanced PubMed search with citation export (BibTeX, APA, MLA), author search, journal analysis, and article comparison (`L2` `A` `Python`).
+- [Standalone PubMed MCP](https://github.com/rikachu225/mcp-pubmed-server) - Standalone PubMed search server for biomedical literature access and citation retrieval (`L2` `A` `Python`).
 - [TealFlow MCP](https://github.com/Appsilon/TealFlowMCP) - Build Teal R Shiny clinical trial analysis apps with AI assistance (`L2` `B` `Python`).
 
 ## Population Health and Value-Based Care
 
-- [Apple Health MCP Server](https://github.com/the-momentum/apple-health-mcp-server) - Access exported Apple Health data with built-in analytics for consumer health and population health workflows (`L3` `D`).
+- [Apple Health MCP Server](https://github.com/the-momentum/apple-health-mcp-server) - Access exported Apple Health data with built-in analytics for consumer health and population health workflows (`L3` `D` `TypeScript`).
 - [Apple Health MCP](https://github.com/neiltron/apple-health-mcp) - Query Apple Health data with SQL and natural language via DuckDB for consumer and population health workflows (`L3` `D` `TypeScript`).
 - [PopHIVE MCP Server](https://github.com/Cicatriiz/pophive-mcp-server) - Yale PopHIVE population health data for community health analysis and value-based care (`L3` `B` `JavaScript`).
 
 ## Workflow Bundles
 
-Pre-configured MCP stacks for common healthcare workflows.
+Suggested MCP combinations for common healthcare workflows. Each bundle lists which servers from this list to combine.
 
-- **Denial Fighter** - Analyze, appeal, and prevent claim denials with NCD/LCD lookup, ICD-10 validation, and clinical evidence search.
-- **Prior Auth Stack** - CMS-0057 aligned prior authorization workflow with coverage determination and FHIR submission.
-- **Clinical Reference Kit** - Point-of-care reference tools for clinicians including drug info, literature search, and genomics.
-- **FHIR Interop Suite** - Complete FHIR integration toolkit for CMS-0057 and HTI-1 compliance.
-- **Compliance Suite** - Quality reporting and regulatory compliance with Medicare policy monitoring and HIPAA guardrails.
+- **Denial Fighter** - Combine [ReimbursementEngine](#revenue-cycle-management) + [Healthcare Billing Codes](#revenue-cycle-management) + [MCP Simple PubMed](#life-sciences-and-research) for claim denial analysis, appeal letter generation with NCD/LCD lookup, ICD-10 validation, and clinical evidence search.
+- **Prior Auth Stack** - Combine [Health Record MCP](#fhir-and-health-data-interoperability) or [AgentCare MCP](#fhir-and-health-data-interoperability) + [ReimbursementEngine](#revenue-cycle-management) for CMS-0057 aligned prior authorization with coverage determination and FHIR submission.
+- **Clinical Reference Kit** - Combine [Medical-MCP](#clinical-decision-support) + [MCP Simple PubMed](#life-sciences-and-research) + [BioMCP](#life-sciences-and-research) for point-of-care drug info, literature search, and genomics.
+- **FHIR Interop Suite** - Combine [AEHRC FHIR Tools](#fhir-and-health-data-interoperability) + [WSO2 FHIR MCP Server](#fhir-and-health-data-interoperability) + [Secure FHIR MCP](#fhir-and-health-data-interoperability) for a CMS-0057 and HTI-1 compliant FHIR integration toolkit.
+- **Compliance Suite** - Combine [Innovaccer HMCP](#quality-compliance-and-regulatory) + [OMOP MCP](#quality-compliance-and-regulatory) + [ReimbursementEngine](#revenue-cycle-management) for quality reporting and regulatory compliance with Medicare policy monitoring and HIPAA guardrails.
 
 ## Footnotes
 

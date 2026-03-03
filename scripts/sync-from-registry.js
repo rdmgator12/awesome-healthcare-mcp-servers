@@ -3,6 +3,9 @@
 /**
  * sync-from-registry.js
  *
+ * PLANNED FEATURE — requires the healthcare-mcp-marketplace registry repo.
+ * See: https://github.com/rdmgator12/healthcare-mcp-marketplace (not yet published)
+ *
  * Reads mcps.json from the Healthcare MCP Marketplace registry and generates
  * awesome-list formatted entries grouped by category.
  *
@@ -26,12 +29,8 @@ const CATEGORY_HEADINGS = {
   cds: "Clinical Decision Support",
   fhir: "FHIR and Health Data Interoperability",
   quality: "Quality Compliance and Regulatory",
-  credentialing: "Credentialing and Provider Operations",
-  medlegal: "Medical-Legal and Expert Witness",
-  education: "Medical Education and Training",
   pophealth: "Population Health and Value-Based Care",
   lifesci: "Life Sciences and Research",
-  payer: "Health Plan and Payer Operations",
 };
 
 // Category display order
@@ -40,12 +39,8 @@ const CATEGORY_ORDER = [
   "cds",
   "fhir",
   "quality",
-  "credentialing",
-  "medlegal",
-  "education",
   "pophealth",
   "lifesci",
-  "payer",
 ];
 
 function formatEntry(mcp) {
