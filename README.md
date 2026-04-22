@@ -64,6 +64,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [NCCN Guidelines MCP](https://github.com/gscfwid/NCCN_guidelines_MCP) - NCCN cancer treatment guidelines access for oncology decision support (`L2` `A` `Python`).
 - [NexOnco MCP](https://github.com/Nexgene-Research/nexonco-mcp) - Oncology clinical evidence and precision medicine decision support (`L2` `B` `Python`).
 - [NICE MCP Server](https://github.com/kieran-heidi/medical-mcp-server) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A`).
+- [Oncofiles](https://github.com/peter-fusek/oncofiles) - AI-powered medical document management for cancer patients and caregivers with OCR, lab value tracking with reference ranges, pre-cycle safety checks, and PubMed/ClinicalTrials.gov integration across 76 tools (`L4` `B` `Python`).
 - [SNOMED CT MCP](https://github.com/eigenbau/mcp-snomed-ct) - SNOMED CT concept lookup via FHIR R4 terminology server for clinical coding (`L2` `A` `Python`).
 
 ## FHIR and Health Data Interoperability
