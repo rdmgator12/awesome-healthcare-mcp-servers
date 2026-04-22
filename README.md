@@ -56,6 +56,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [BioThings MCP](https://github.com/longevity-genie/biothings-mcp) - Query genes, genetic variants, drugs, and taxonomic information via the BioThings API (`L2` `B` `Python`).
 - [DrugBank MCP Server](https://github.com/openpharma-org/drugbank-mcp-server) - Access 17,430+ drugs (13,166 small molecules, 4,264 biotech) with targets, enzymes, metabolic pathways, interactions, and regulatory data from the DrugBank Full Database (`L2` `B` `JavaScript`).
 - [Evidence-Based Medicine MCP](https://github.com/chris-lovejoy/evidence-based-medicine-mcp) - Evidence-based medical advice MCP for clinical decision support workflows (`L2` `B` `TypeScript`).
+- [FDA MCP Server](https://github.com/openpharma-org/fda-mcp) - Comprehensive FDA pharmaceutical intelligence covering 47,000+ drug products, FAERS adverse events, drug recalls, Orange Book small-molecule approvals, and Purple Book biologics (`L2` `B` `JavaScript`).
 - [Healthcare Data Hub](https://github.com/Cicatriiz/healthcare-mcp-public) - All-in-one server for FDA drug info, PubMed, medRxiv, NCBI Bookshelf, clinical trials, ICD-10, DICOM metadata, and medical calculator (`L2` `B` `Node.js`).
 - [MCP-LOINC](https://github.com/Kryzo/mcp-Loinc) - LOINC API wrapper for medical terminology standardization and lab code lookup (`L2` `B` `Python`).
 - [MedAdapt Content Server](https://github.com/ryoureddy/medadapt-content-server) - AI-assisted medical learning with adaptive content from PubMed, NCBI Bookshelf, and user documents (`L2` `B` `Python`).
@@ -113,6 +114,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 - [Apple Health MCP Server](https://github.com/the-momentum/apple-health-mcp-server) - Access exported Apple Health data with built-in analytics for consumer health and population health workflows (`L3` `D`).
 - [Apple Health MCP](https://github.com/neiltron/apple-health-mcp) - Query Apple Health data with SQL and natural language via DuckDB for consumer and population health workflows (`L3` `D` `TypeScript`).
+- [Oura MCP Server](https://github.com/schimmmi/oura-mcp-server) - Oura Ring health intelligence with chronotype classification, personalized sleep-need detection, 7-day forecasts, and multi-signal illness detection with 1-2 day advance warning (`L3` `D` `Python`).
 - [PopHIVE MCP Server](https://github.com/Cicatriiz/pophive-mcp-server) - Yale PopHIVE population health data for community health analysis and value-based care (`L3` `B` `JavaScript`).
 
 ## Workflow Bundles
