@@ -47,11 +47,14 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 ## Revenue Cycle Management 
 
 - [Healthcare Billing Codes](https://github.com/contextkits/healthcare-billing-codes) - CPT, ICD-10, and HCPCS billing code lookup and search for revenue cycle workflows (`L2` `C` `Python`).
+- [Medicaid MCP Server](https://github.com/openpharma-org/medicaid-mcp-server) - Medicaid public data access including NADAC drug pricing (1.5M NDCs), Federal Upper Limits, state formularies, and drug rebate program data via data.medicaid.gov (`L2` `C` `JavaScript`).
+- [Medicare MCP](https://github.com/openpharma-org/medicare-mcp) - CMS Medicare provider services, prescriber data, hospital utilization, drug spending, and Part B ASP pricing via the Socrata API with quarterly automated updates (`L2` `C` `JavaScript`).
 - [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
 
 ## Clinical Decision Support
 
 - [BioThings MCP](https://github.com/longevity-genie/biothings-mcp) - Query genes, genetic variants, drugs, and taxonomic information via the BioThings API (`L2` `B` `Python`).
+- [DrugBank MCP Server](https://github.com/openpharma-org/drugbank-mcp-server) - Access 17,430+ drugs (13,166 small molecules, 4,264 biotech) with targets, enzymes, metabolic pathways, interactions, and regulatory data from the DrugBank Full Database (`L2` `B` `JavaScript`).
 - [Evidence-Based Medicine MCP](https://github.com/chris-lovejoy/evidence-based-medicine-mcp) - Evidence-based medical advice MCP for clinical decision support workflows (`L2` `B` `TypeScript`).
 - [Healthcare Data Hub](https://github.com/Cicatriiz/healthcare-mcp-public) - All-in-one server for FDA drug info, PubMed, medRxiv, NCBI Bookshelf, clinical trials, ICD-10, DICOM metadata, and medical calculator (`L2` `B` `Node.js`).
 - [MCP-LOINC](https://github.com/Kryzo/mcp-Loinc) - LOINC API wrapper for medical terminology standardization and lab code lookup (`L2` `B` `Python`).
@@ -69,9 +72,11 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [AWS HealthLake MCP Server](https://awslabs.github.io/mcp/servers/healthlake-mcp-server) - MCP server for AWS HealthLake FHIR operations with 11 tools for FHIR resource management and automatic datastore discovery (`L5` `B` `Python`).
 - [Azure FHIR MCP Server](https://github.com/erikhoward/azure-fhir-mcp-server) - Azure Health Data Services FHIR MCP server for cloud-native health data integration (`L4` `B` `Python`).
 - [DICOM MCP Server](https://github.com/ChristianHinge/dicom-mcp) - Query, read, and move medical images and reports from PACS and other DICOM-compliant systems (`L3` `B` `Python`).
+- [EHR-MCP](https://github.com/jsfaulkner86/ehr-mcp) - Framework-agnostic SMART-on-FHIR interoperability layer for multi-agent healthcare AI, returning typed `ClinicalContextBundle` from Epic, Cerner, and any FHIR R4 EHR (`L4` `B` `Python`).
 - [Flexpa FHIR MCP](https://github.com/flexpa/mcp-fhir) - Connect to health plans and retrieve patient claims, coverage, and clinical data via FHIR (`L4` `C` `TypeScript`).
 - [Health Record MCP](https://github.com/jmandel/health-record-mcp) - Connect to an EHR and make clinical data available via MCP, by Josh Mandel of SMART Health IT (`L4` `A` `TypeScript`).
 - [LangCare MCP FHIR](https://github.com/langcare/langcare-mcp-fhir) - Enterprise-grade FHIR R4 proxy for AI agents with 40+ clinical skills, multi-EMR support (Epic, Cerner, GCP), and SMART-on-FHIR auth (`L4` `B` `Go`).
+- [Medplum MCP Server](https://github.com/medplum/medplum-mcp-server) - Official Medplum MCP proxy exposing FHIR resources from Medplum-hosted or self-hosted FHIR backends to AI agents (`L4` `B` `TypeScript`).
 - [Momentum FHIR MCP Server](https://github.com/the-momentum/fhir-mcp-server) - Natural language interface for healthcare data that eliminates weeks of FHIR learning and prevents LLM hallucination of medical codes (`L4` `B` `TypeScript`).
 - [Orthanc DICOM MCP](https://github.com/sscotti/dicom-mcp) - DICOM MCP with Orthanc PACS integration, radiology report generation, FHIR ImagingStudy, and mini-RIS (`L3` `B` `Python`).
 - [Quiquemz FHIR MCP](https://github.com/quiquemz/fhir-mcp-server) - C# FHIR R4 MCP server with CRUD, search, transactions, and Azure FHIR Server support (`L4` `B` `C#`).
@@ -91,6 +96,8 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [BioMCP](https://github.com/genomoncology/biomcp) - Clinical trials, genomics, PubMed, and variant annotation in Rust for biomedical research workflows (`L2` `B` `Rust`).
 - [CDISC Library MCP](https://github.com/Cicatriiz/cdisc-library-mcp-server) - CDISC Library access for clinical data standards and regulatory submissions (`L2` `B` `JavaScript`).
 - [ClinicalTrials.gov MCP](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) - ClinicalTrials.gov REST API for searching and retrieving clinical trial data (`L2` `A` `TypeScript`).
+- [GenePattern MCP](https://github.com/genepattern/genepattern-mcp) - Official GenePattern server bridging AI assistants to 200+ peer-reviewed bioinformatics modules for gene expression, single-cell, and genomic analysis (`L2` `B` `Python`).
+- [GenomeMCP](https://github.com/Eldergenix/GenomeMCP) - Clinical genomics intelligence via ClinVar, gnomAD, Reactome, and NCBI-BLAST with variant interpretation and population genetics for precision medicine workflows (`L2` `B` `Python`).
 - [M3 MIMIC MCP](https://github.com/rafiattrach/m3) - Query MIMIC-IV medical data via natural language for clinical research (`L3` `B` `Python`).
 - [MCP Simple PubMed](https://github.com/andybrandt/mcp-simple-pubmed) - Popular standalone PubMed MCP server for biomedical literature search (`L2` `A` `Python`).
 - [Protein Structure Analyzer](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
@@ -99,6 +106,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Medical Research MCP Suite](https://github.com/ezhou89/medical-research-mcp-suite) - Cross-database medical research intelligence unifying ClinicalTrials.gov, PubMed, and FDA with AI analysis (`L2` `B` `TypeScript`).
 - [Precision Medicine MCP](https://github.com/lynnlangit/precision-medicine-mcp) - Multi-omics precision medicine platform with genomics, spatial transcriptomics, imaging, and clinician-in-the-loop workflows (`L3` `B` `Python`).
 - [PubMed MCP](https://github.com/chrismannina/pubmed-mcp) - Advanced PubMed search with citation export (BibTeX, APA, MLA), author search, journal analysis, and article comparison (`L2` `A` `Python`).
+- [Reactome MCP](https://github.com/reactome/reactome-mcp) - Official Reactome MCP server exposing 40+ tools for pathway search, enrichment analysis, ID mapping, species/disease annotation, and biological pathway data export (`L2` `B` `TypeScript`).
 - [TealFlow MCP](https://github.com/Appsilon/TealFlowMCP) - Build Teal R Shiny clinical trial analysis apps with AI assistance (`L2` `B` `Python`).
 
 ## Population Health and Value-Based Care
