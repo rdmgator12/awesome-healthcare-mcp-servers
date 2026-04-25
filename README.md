@@ -50,9 +50,9 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Medicaid MCP Server](https://github.com/openpharma-org/medicaid-mcp-server) - Medicaid public data access including NADAC drug pricing (1.5M NDCs), Federal Upper Limits, state formularies, and drug rebate program data via data.medicaid.gov (`L2` `C` `JavaScript`).
 - [Medicare MCP](https://github.com/openpharma-org/medicare-mcp) - CMS Medicare provider services, prescriber data, hospital utilization, drug spending, and Part B ASP pricing via the Socrata API with quarterly automated updates (`L2` `C` `JavaScript`).
 - [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
-
-## Clinical Decision Support
-
+- [MedScribe RCM-MCP](https://github.com/joelenoch0/medscribe-rcm-mcp) - End-to-end RCM pipeline chaining ICD-10 extraction, NOS/NEC sentinel trapping (22 codes), NCCI/MUE claim validation with 0–100 denial risk scoring, and CARC/RARC appeal generation with 42 CFR Part 2 consent middleware (`L4` `C` `Python`).
+    
+  ## Clinical Decision Support 
 - [BioThings MCP](https://github.com/longevity-genie/biothings-mcp) - Query genes, genetic variants, drugs, and taxonomic information via the BioThings API (`L2` `B` `Python`).
 - [DrugBank MCP Server](https://github.com/openpharma-org/drugbank-mcp-server) - Access 17,430+ drugs (13,166 small molecules, 4,264 biotech) with targets, enzymes, metabolic pathways, interactions, and regulatory data from the DrugBank Full Database (`L2` `B` `JavaScript`).
 - [Evidence-Based Medicine MCP](https://github.com/chris-lovejoy/evidence-based-medicine-mcp) - Evidence-based medical advice MCP for clinical decision support workflows (`L2` `B` `TypeScript`).
