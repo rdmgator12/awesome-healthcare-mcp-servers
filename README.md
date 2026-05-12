@@ -46,7 +46,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 ## Revenue Cycle Management 
 
-- [EasyPA](https://easypa.ai/mcp) - AI-native prior authorization platform with patient lookup, eligibility checks, PA status tracking, case summaries, denial intake, appeal generation, submission analysis, and dashboard metrics; SOC 2 Type II and HIPAA-aligned with BAA available (`L4` `C`).
+- [EasyPA](https://easypa.ai/mcp) - AI-native prior authorization platform with patient lookup, eligibility checks, PA status tracking, case summaries, denial intake, appeal generation, submission analysis, and dashboard metrics; SOC 2 Type II, HIPAA-compliant with BAA, AES-256, audit logging, and RBAC (`L5` `B`).
 - [FHIRfly MCP](https://github.com/fhirfly-io/fhirfly-mcp-server) - 50+ healthcare reference tools spanning NDC, NPI, RxNorm, LOINC, ICD-10, SNOMED, NCCI edits, MUE limits, Medicare PFS/RVU, LCD/NCD coverage, HCPCS, MS-DRG, HCC risk adjustment, and FDA drug labels (`L2` `C` `TypeScript`).
 - [Healthcare Billing Codes](https://github.com/contextkits/healthcare-billing-codes) - CPT, ICD-10, and HCPCS billing code lookup and search for revenue cycle workflows (`L2` `C` `Python`).
 - [Medicaid MCP Server](https://github.com/openpharma-org/medicaid-mcp-server) - Medicaid public data access including NADAC drug pricing (1.5M NDCs), Federal Upper Limits, state formularies, and drug rebate program data via data.medicaid.gov (`L2` `C` `JavaScript`).
