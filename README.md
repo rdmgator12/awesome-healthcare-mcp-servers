@@ -42,10 +42,12 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 | `C`   | Operationally Useful | Administrative or financial tools, not clinical            |
 | `D`   | Experimental         | Research-stage, community-developed                        |
 
-> All ratings are point-in-time architectural assessments, not certifications. See [contributing.md](contributing.md) for full rating criteria.
+> All ratings are point-in-time architectural assessments, not certifications. Full rating criteria are documented in the Contributing section below.
 
 ## Revenue Cycle Management 
 
+- [EasyPA](https://easypa.ai/mcp) - AI-native prior authorization platform with patient lookup, eligibility checks, PA status tracking, case summaries, denial intake, appeal generation, submission analysis, and dashboard metrics; SOC 2 Type II and HIPAA-aligned with BAA available (`L4` `C`).
+- [FHIRfly MCP](https://github.com/fhirfly-io/fhirfly-mcp-server) - 50+ healthcare reference tools spanning NDC, NPI, RxNorm, LOINC, ICD-10, SNOMED, NCCI edits, MUE limits, Medicare PFS/RVU, LCD/NCD coverage, HCPCS, MS-DRG, HCC risk adjustment, and FDA drug labels (`L2` `C` `TypeScript`).
 - [Healthcare Billing Codes](https://github.com/contextkits/healthcare-billing-codes) - CPT, ICD-10, and HCPCS billing code lookup and search for revenue cycle workflows (`L2` `C` `Python`).
 - [Medicaid MCP Server](https://github.com/openpharma-org/medicaid-mcp-server) - Medicaid public data access including NADAC drug pricing (1.5M NDCs), Federal Upper Limits, state formularies, and drug rebate program data via data.medicaid.gov (`L2` `C` `JavaScript`).
 - [Medicare MCP](https://github.com/openpharma-org/medicare-mcp) - CMS Medicare provider services, prescriber data, hospital utilization, drug spending, and Part B ASP pricing via the Socrata API with quarterly automated updates (`L2` `C` `JavaScript`).
@@ -54,13 +56,16 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 ## Clinical Decision Support
 
 - [BioThings MCP](https://github.com/longevity-genie/biothings-mcp) - Query genes, genetic variants, drugs, and taxonomic information via the BioThings API (`L2` `B` `Python`).
+- [CliniServer](https://github.com/CyprianFusi/mcp-cliniserver) - Symptom extraction from clinical text with negation/uncertainty flags, Claude-generated differential diagnosis and treatment recommendations, and PubMed literature surfacing (`L2` `D` `Python`).
 - [DrugBank MCP Server](https://github.com/openpharma-org/drugbank-mcp-server) - Access 17,430+ drugs (13,166 small molecules, 4,264 biotech) with targets, enzymes, metabolic pathways, interactions, and regulatory data from the DrugBank Full Database (`L2` `B` `JavaScript`).
 - [Evidence-Based Medicine MCP](https://github.com/chris-lovejoy/evidence-based-medicine-mcp) - Evidence-based medical advice MCP for clinical decision support workflows (`L2` `B` `TypeScript`).
 - [FDA MCP Server](https://github.com/openpharma-org/fda-mcp) - Comprehensive FDA pharmaceutical intelligence covering 47,000+ drug products, FAERS adverse events, drug recalls, Orange Book small-molecule approvals, and Purple Book biologics (`L2` `B` `JavaScript`).
 - [Healthcare Data Hub](https://github.com/Cicatriiz/healthcare-mcp-public) - All-in-one server for FDA drug info, PubMed, medRxiv, NCBI Bookshelf, clinical trials, ICD-10, DICOM metadata, and medical calculator (`L2` `B` `Node.js`).
 - [MCP-LOINC](https://github.com/Kryzo/mcp-Loinc) - LOINC API wrapper for medical terminology standardization and lab code lookup (`L2` `B` `Python`).
 - [MedAdapt Content Server](https://github.com/ryoureddy/medadapt-content-server) - AI-assisted medical learning with adaptive content from PubMed, NCBI Bookshelf, and user documents (`L2` `B` `Python`).
+- [MedGemma MCP](https://github.com/Tom-R-Main/medgemma-mcp) - Local-first medical AI built on Google's MedGemma 4B-IT for chest X-ray, CT, dermoscopy, fundus, and histopathology analysis plus FHIR record summarization and structured extraction from clinical free text, with chain-of-thought prompting and confidence-scored output (`L3` `D` `Python`).
 - [Medical-MCP](https://github.com/JamesANZ/medical-mcp) - Comprehensive medical information from FDA, WHO, PubMed, RxNorm, and Google Scholar (`L2` `B` `Python`).
+- [MedVision MCP](https://github.com/u9401066/medvision-mcp) - Chest X-ray analysis via Visual RAG combining RAD-DINO embeddings, FAISS similarity search, and DenseNet-121 classification across 18 pathologies with DICOM support and interactive ROI annotation (`L3` `D` `Python`).
 - [NCCN Guidelines MCP](https://github.com/gscfwid/NCCN_guidelines_MCP) - NCCN cancer treatment guidelines access for oncology decision support (`L2` `A` `Python`).
 - [NexOnco MCP](https://github.com/Nexgene-Research/nexonco-mcp) - Oncology clinical evidence and precision medicine decision support (`L2` `B` `Python`).
 - [NICE MCP Server](https://github.com/kieran-heidi/medical-mcp-server) - UK NICE Clinical Guidelines access for evidence-based clinical decision support (`L2` `A`).
@@ -73,6 +78,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [AgentCare MCP](https://github.com/Kartha-AI/agentcare-mcp) - Healthcare tools and prompts for interacting with FHIR data and medical resources on EMRs like Cerner and Epic (`L4` `B` `TypeScript`).
 - [AWS HealthLake MCP Server](https://awslabs.github.io/mcp/servers/healthlake-mcp-server) - MCP server for AWS HealthLake FHIR operations with 11 tools for FHIR resource management and automatic datastore discovery (`L5` `B` `Python`).
 - [Azure FHIR MCP Server](https://github.com/erikhoward/azure-fhir-mcp-server) - Azure Health Data Services FHIR MCP server for cloud-native health data integration (`L4` `B` `Python`).
+- [CDS Hooks FHIR MCP](https://github.com/mj991218/mcp-fhir) - FHIR R4 MCP with 17 tools including CDS Hooks integration (patient-view, order-select/sign, encounter-start/discharge), FHIR Consent checking, AuditEvent logging, RBAC, and multi-persona output for clinician/patient/admin contexts (`L4` `B` `Python`).
 - [DICOM MCP Server](https://github.com/ChristianHinge/dicom-mcp) - Query, read, and move medical images and reports from PACS and other DICOM-compliant systems (`L3` `B` `Python`).
 - [EHR-MCP](https://github.com/jsfaulkner86/ehr-mcp) - Framework-agnostic SMART-on-FHIR interoperability layer for multi-agent healthcare AI, returning typed `ClinicalContextBundle` from Epic, Cerner, and any FHIR R4 EHR (`L4` `B` `Python`).
 - [Flexpa FHIR MCP](https://github.com/flexpa/mcp-fhir) - Connect to health plans and retrieve patient claims, coverage, and clinical data via FHIR (`L4` `C` `TypeScript`).
@@ -88,6 +94,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 ## Quality Compliance and Regulatory
 
 - [Innovaccer HMCP](https://github.com/innovaccer/Healthcare-MCP) - Specialized MCP extension with HIPAA guardrails, OAuth2, audit trails, and compliance layer for enterprise healthcare AI (`L5` `C`).
+- [K01 MCP Server](https://github.com/K01labs/k01-mcp-server) - Differentially-private synthetic FHIR cohort generation and querying across R4/R5 with demographic and clinical constraints, deterministic seeding, and zero real-patient-data exposure for CI/CD, dev, and analytics (`L3` `C`).
 - [OMOP MCP](https://github.com/OHNLP/omop_mcp) - OMOP concept mapping via LLMs by Mayo Clinic NLP group for clinical data standardization (`L2` `B` `Python`).
 - [DataMimic](https://github.com/rapiddweller/datamimic) - Deterministic synthetic healthcare test data generation for CI/CD and analytics, HIPAA-safe with MCP integration (`L3` `C` `Python`).
 - [PyOMOP](https://github.com/dermatologist/pyomop) - OHDSI/OMOP clinical data management with FHIR import for observational research (`L3` `B` `Python`).
@@ -95,6 +102,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 ## Life Sciences and Research
 
 - [3D Slicer MCP](https://github.com/brainbloodbarrier/3dslicer-claude-bridge) - Medical imaging integration via 3D Slicer for radiology and surgical planning workflows (`L3` `B`).
+- [BioContext AI Meta MCP](https://github.com/biocontext-ai/meta-mcp) - Meta-MCP server providing dynamic, on-demand access to all installable MCP servers in the BioContextAI biomedical registry with LLM-powered search, semantic discovery, and minimal context consumption (`L2` `B` `Python`).
 - [BioMCP](https://github.com/genomoncology/biomcp) - Clinical trials, genomics, PubMed, and variant annotation in Rust for biomedical research workflows (`L2` `B` `Rust`).
 - [CDISC Library MCP](https://github.com/Cicatriiz/cdisc-library-mcp-server) - CDISC Library access for clinical data standards and regulatory submissions (`L2` `B` `JavaScript`).
 - [ClinicalTrials.gov MCP](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) - ClinicalTrials.gov REST API for searching and retrieving clinical trial data (`L2` `A` `TypeScript`).
@@ -122,11 +130,25 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 
 Pre-configured MCP stacks for common healthcare workflows.
 
-- **Denial Fighter** - Analyze, appeal, and prevent claim denials with NCD/LCD lookup, ICD-10 validation, and clinical evidence search.
-- **Prior Auth Stack** - CMS-0057 aligned prior authorization workflow with coverage determination and FHIR submission.
-- **Clinical Reference Kit** - Point-of-care reference tools for clinicians including drug info, literature search, and genomics.
-- **FHIR Interop Suite** - Complete FHIR integration toolkit for CMS-0057 and HTI-1 compliance.
-- **Compliance Suite** - Quality reporting and regulatory compliance with Medicare policy monitoring and HIPAA guardrails.
+### Denial Fighter
+
+Analyze, appeal, and prevent claim denials with NCD/LCD lookup, ICD-10 validation, and clinical evidence search.
+
+### Prior Auth Stack
+
+CMS-0057 aligned prior authorization workflow with coverage determination and FHIR submission.
+
+### Clinical Reference Kit
+
+Point-of-care reference tools for clinicians including drug info, literature search, and genomics.
+
+### FHIR Interop Suite
+
+Complete FHIR integration toolkit for CMS-0057 and HTI-1 compliance.
+
+### Compliance Suite
+
+Quality reporting and regulatory compliance with Medicare policy monitoring and HIPAA guardrails.
 
 ## Footnotes
 

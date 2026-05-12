@@ -1,6 +1,8 @@
 name: Awesome Lint
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 
@@ -11,4 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - run: npx awesome-lint
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npx --yes awesome-lint
