@@ -51,6 +51,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Healthcare Billing Codes](https://github.com/contextkits/healthcare-billing-codes) - CPT, ICD-10, and HCPCS billing code lookup and search for revenue cycle workflows (`L2` `C` `Python`).
 - [Medicaid MCP Server](https://github.com/openpharma-org/medicaid-mcp-server) - Medicaid public data access including NADAC drug pricing (1.5M NDCs), Federal Upper Limits, state formularies, and drug rebate program data via data.medicaid.gov (`L2` `C` `JavaScript`).
 - [Medicare MCP](https://github.com/openpharma-org/medicare-mcp) - CMS Medicare provider services, prescriber data, hospital utilization, drug spending, and Part B ASP pricing via the Socrata API with quarterly automated updates (`L2` `C` `JavaScript`).
+- [MedScribe RCM-MCP](https://github.com/joelenoch0/medscribe-rcm-mcp) - End-to-end RCM pipeline chaining ICD-10 extraction, NOS/NEC sentinel trapping (22 codes), NCCI/MUE claim validation with 0-100 denial risk scoring, and CARC/RARC appeal generation; Presidio-based PHI handling and 42 CFR Part 2 consent middleware (`L4` `C` `Python`).
 - [ReimbursementEngine](https://github.com/rdmgator12/RE-MCP-) - Medicare coverage determination, ICD-10 coding, NPI validation, payer policy analysis, PubMed search, and bioRxiv/medRxiv preprint search across 18 tools (`L4` `C`).
 
 ## Clinical Decision Support
