@@ -8,6 +8,8 @@
 
 Every server is independently rated for **HIPAA compliance** (L1–L5) and **clinical validity** (A–D) by a board-certified physician.
 
+**Last updated:** June 5, 2026
+
 ## Contents
 
 - [Trust Framework](#trust-framework)
