@@ -8,7 +8,7 @@
 
 Every server is independently rated for **HIPAA compliance** (L1–L5) and **clinical validity** (A–D) by a board-certified physician.
 
-**Last updated:** June 5, 2026
+**Last updated:** June 18, 2026
 
 ## Contents
 
@@ -127,6 +127,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Precision Medicine MCP](https://github.com/lynnlangit/precision-medicine-mcp) - Multi-omics precision medicine platform with genomics, spatial transcriptomics, imaging, and clinician-in-the-loop workflows (`L3` `B` `Python`).
 - [Protein Structure Analyzer](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) - Protein structure analysis via MCP for research and drug discovery workflows (`L2` `D`).
 - [PubMed MCP](https://github.com/chrismannina/pubmed-mcp) - Advanced PubMed search with citation export (BibTeX, APA, MLA), author search, journal analysis, and article comparison (`L2` `A` `Python`).
+- [PubMed MCP Server](https://github.com/cyanheads/pubmed-mcp-server) - PubMed and Europe PMC search with full-text retrieval chained across NCBI PMC, Europe PMC, and Unpaywall, MeSH vocabulary lookup, ECitMatch citation resolution, DOI/PMID/PMCID conversion, NCBI ESpell query correction, and citation export in APA, MLA, BibTeX, RIS, and Vancouver across 10 tools; npm- and Docker-published with stdio and Streamable HTTP transports (`L2` `A` `TypeScript`).
 - [Reactome MCP](https://github.com/reactome/reactome-mcp) - Official Reactome MCP server exposing 40+ tools for pathway search, enrichment analysis, ID mapping, species/disease annotation, and biological pathway data export (`L2` `B` `TypeScript`).
 - [TealFlow MCP](https://github.com/Appsilon/TealFlowMCP) - Build Teal R Shiny clinical trial analysis apps with AI assistance (`L2` `B` `Python`).
 
