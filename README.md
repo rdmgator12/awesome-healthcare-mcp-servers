@@ -125,6 +125,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 ## Quality Compliance and Regulatory
 
 - [DataMimic](https://github.com/rapiddweller/datamimic) - Deterministic synthetic healthcare test data generation for CI/CD and analytics, HIPAA-safe with MCP integration (`L3` `C` `Python`).
+- [Dataplex Healthcare Data](https://docs.dataplex-consulting.com/snowflake-access/mcp-server) - Remote streamable-HTTP server for US government healthcare data: CMS provider/facility/nursing-home/prior-auth (CMS-0057) compliance data, FDA adverse events, CDC public health, NPPES NPI records. Keyless read-only tools with real sample rows and machine-readable pricing.
 - [Umbryn MCP](https://github.com/Rinava/umbryn-mcp) - Fail-closed PHI/PII redaction and de-identification gateway that strips identifiers before text reaches a model, combining Presidio and regex engines with audit logging, checksums, and an evaluation harness (`L4` `C` `Python`).
 - [Innovaccer HMCP](https://github.com/innovaccer/Healthcare-MCP) - Specialized MCP extension with HIPAA guardrails, OAuth2, audit trails, and compliance layer for enterprise healthcare AI (`L5` `C`).
 - [K01 MCP Server](https://github.com/K01labs/k01-mcp-server) - Differentially-private synthetic FHIR cohort generation and querying across R4/R5 with demographic and clinical constraints, deterministic seeding, and zero real-patient-data exposure for CI/CD, dev, and analytics (`L3` `C`).
