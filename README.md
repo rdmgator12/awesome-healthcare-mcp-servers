@@ -175,6 +175,7 @@ Every MCP server listed here carries two independent ratings maintained by Ralph
 - [Oura MCP Server](https://github.com/schimmmi/oura-mcp-server) - Oura Ring health intelligence with chronotype classification, personalized sleep-need detection, 7-day forecasts, and multi-signal illness detection with 1-2 day advance warning (`L3` `D` `Python`).
 - [PopHIVE MCP Server](https://github.com/Cicatriiz/pophive-mcp-server) - Yale PopHIVE population health data for community health analysis and value-based care (`L3` `B` `JavaScript`).
 - [WHO GHO MCP](https://github.com/cyanheads/who-gho-mcp-server) - WHO Global Health Observatory indicators by country, region, year, and demographic (`L2` `B` `TypeScript`).
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`), HTTP 402 payment wall, and MCP tool server for verifying Layer-1 `DOOM` and Base Mainnet `wDOOM` payments.
 
 ## Workflow Bundles
 
